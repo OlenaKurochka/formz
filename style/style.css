@@ -1,0 +1,59 @@
+:root{
+  font-size: 10px;
+}
+
+body{
+  max-width: 320px;
+  border: 1px solid yellow;
+  padding: 1rem;
+}
+
+.container{
+  padding: .5rem;
+  font-size: 1.25rem;
+}
+
+.form-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-control{
+  height: 2.5rem;
+  width: 60%;
+  
+}
+
+.form-group label{
+  width: 35%;
+  margin-right: .5rem;
+}
+
+.form-group label p span{
+  color: red;
+}
+
+.streetInRegion, .numberOfBuilding{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  padding: .5rem;
+}
+
+.streetInRegion input, .numberOfBuilding input{
+  height: 2.5rem;
+}
+
+.button{
+  height: 4rem;
+  display: flex;
+}
+
+.button input {
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+
